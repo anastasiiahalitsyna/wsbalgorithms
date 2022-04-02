@@ -3,6 +3,7 @@ package com.anastasiia.sorting;
 import java.util.Arrays;
 
 public class InsertionSort {
+    //przz wstawienie
 
     void sort(int[] arr) {
         int n = arr.length;

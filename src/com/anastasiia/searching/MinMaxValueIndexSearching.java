@@ -4,7 +4,7 @@ public class MinMaxValueIndexSearching {
 
 
     public static void main(String[] args) {
-        int []arr = new int[]{8, 4, 2, 9, 5, 7, 7, 12, 334, 5, 0, -23};
+        int[] arr = new int[]{8, 4, 2, 9, 5, 7, 7, 12, 334, 5, 0, -23};
         System.out.println(findMinMaxValue(arr, true));
         System.out.println(findMinMaxValue(arr, false));
         System.out.println(findMinMaxIndex(arr, true));
@@ -51,4 +51,8 @@ public class MinMaxValueIndexSearching {
         }
         return index;
     }
+
+
 }
+
+

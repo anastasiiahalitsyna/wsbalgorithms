@@ -3,7 +3,7 @@ package com.anastasiia.sorting;
 import java.util.Arrays;
 
 public class SelectionSort {
-
+// sortowanie przez wybieranie
     public static void main(String[] args) {
         int nums[] = {99, -10, 100123, 18, -978, 5623, 463, -9, 287, 49};
         sortWithSelectionAsc(nums);
