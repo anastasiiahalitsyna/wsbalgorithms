@@ -2,8 +2,7 @@ package com.anastasiia.sorting;
 
 class CountingSort {
     //sortwanie przez zliczanie
-    void sort(char arr[])
-    {
+    void sort(char arr[]) {
         int n = arr.length;
 
         // The output character array that will have sorted arr
@@ -38,11 +37,10 @@ class CountingSort {
     }
 
     // Driver method
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         CountingSort ob = new CountingSort();
-       char arr[] = { 'g', 'e', 'e', 'k', 's', 'f', 'o',
-                'r', 'g', 'e', 'e', 'k', 's' };
+        char arr[] = {'g', 'e', 'e', 'k', 's', 'f', 'o',
+                'r', 'g', 'e', 'e', 'k', 's'};
 
 
         ob.sort(arr);
